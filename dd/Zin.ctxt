@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Zin
+comment1.params=
+comment1.target=Zin()
+comment2.params=heleZin
+comment2.target=Zin(java.lang.String)
+comment3.params=woord
+comment3.target=void\ voegToeWoord(Woord)
+comment4.params=
+comment4.target=int\ geefAantalTekens()
+comment5.params=
+comment5.target=java.lang.String\ geefZin()
+comment6.params=
+comment6.target=java.lang.String\ geefZinAchterstevoren()
+numComments=7

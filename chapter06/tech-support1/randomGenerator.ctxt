@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=randomGenerator
+comment0.text=\r\n\ class\ randomGenerator\ -\ geef\ hier\ een\ beschrijving\ van\ deze\ class\r\n\r\n\ @author\ (jouw\ naam)\r\n\ @version\ (versie\ nummer\ of\ datum)\r\n
+comment1.params=
+comment1.target=void\ randomGenerator()
+comment2.params=howMany
+comment2.target=void\ randomGenerator(int)
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Responder
+comment0.text=\r\n\ The\ responder\ class\ represents\ a\ response\ generator\ object.\r\n\ It\ is\ used\ to\ generate\ an\ automatic\ response\ to\ an\ input\ string.\r\n\ \r\n\ @author\ \ \ \ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ \ \ \ 0.1\ (2016.02.29)\r\n
+comment1.params=
+comment1.target=Responder()
+comment1.text=\r\n\ Construct\ a\ Responder\ -\ nothing\ to\ do\r\n
+comment2.params=
+comment2.target=java.lang.String\ generateResponse()
+comment2.text=\r\n\ Generate\ a\ response.\r\n\ @return\ \ \ A\ string\ that\ should\ be\ displayed\ as\ the\ response\r\n
+numComments=3

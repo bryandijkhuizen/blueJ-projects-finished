@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Hoofdstuk
+comment1.params=titel
+comment1.target=Hoofdstuk(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ geefTitel()
+comment3.params=paragraaf
+comment3.target=void\ voegToeParagraaf(Paragraaf)
+comment4.params=
+comment4.target=int\ geefAantalParagrafen()
+comment5.params=
+comment5.target=int\ geefAantalTekens()
+comment6.params=hoofdstukNummer
+comment6.target=java.lang.String\ geefInhoudsOpgave(int)
+numComments=7

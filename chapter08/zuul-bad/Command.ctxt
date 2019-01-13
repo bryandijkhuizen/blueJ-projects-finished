@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ This\ class\ holds\ information\ about\ a\ command\ that\ was\ issued\ by\ the\ user.\r\n\ A\ command\ currently\ consists\ of\ two\ strings\:\ a\ command\ word\ and\ a\ second\r\n\ word\ (for\ example,\ if\ the\ command\ was\ "take\ map",\ then\ the\ two\ strings\r\n\ obviously\ are\ "take"\ and\ "map").\r\n\ \r\n\ The\ way\ this\ is\ used\ is\:\ Commands\ are\ already\ checked\ for\ being\ valid\r\n\ command\ words.\ If\ the\ user\ entered\ an\ invalid\ command\ (a\ word\ that\ is\ not\r\n\ known)\ then\ the\ command\ word\ is\ <null>.\r\n\r\n\ If\ the\ command\ had\ only\ one\ word,\ then\ the\ second\ word\ is\ <null>.\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 2016.02.29\r\n
+comment1.params=firstWord\ secondWord
+comment1.target=Command(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ command\ object.\ First\ and\ second\ word\ must\ be\ supplied,\ but\r\n\ either\ one\ (or\ both)\ can\ be\ null.\r\n\ @param\ firstWord\ The\ first\ word\ of\ the\ command.\ Null\ if\ the\ command\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ was\ not\ recognised.\r\n\ @param\ secondWord\ The\ second\ word\ of\ the\ command.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandWord()
+comment2.text=\r\n\ Return\ the\ command\ word\ (the\ first\ word)\ of\ this\ command.\ If\ the\r\n\ command\ was\ not\ understood,\ the\ result\ is\ null.\r\n\ @return\ The\ command\ word.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getSecondWord()
+comment3.text=\r\n\ @return\ The\ second\ word\ of\ this\ command.\ Returns\ null\ if\ there\ was\ no\r\n\ second\ word.\r\n
+comment4.params=
+comment4.target=boolean\ isUnknown()
+comment4.text=\r\n\ @return\ true\ if\ this\ command\ was\ not\ understood.\r\n
+comment5.params=
+comment5.target=boolean\ hasSecondWord()
+comment5.text=\r\n\ @return\ true\ if\ the\ command\ has\ a\ second\ word.\r\n
+numComments=6

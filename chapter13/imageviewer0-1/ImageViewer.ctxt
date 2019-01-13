@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ImageViewer
+comment0.text=\r\n\ ImageViewer\ is\ the\ main\ class\ of\ the\ image\ viewer\ application.\ It\ builds\r\n\ and\ displays\ the\ application\ GUI\ and\ initialises\ all\ other\ components.\r\n\ \r\n\ To\ start\ the\ application,\ create\ an\ object\ of\ this\ class.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes.\r\n\ @version\ 0.1\r\n
+comment1.params=event
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=
+comment2.target=void\ makeFrame()
+comment3.params=frame
+comment3.target=void\ makeMenuBar(javax.swing.JFrame)
+comment4.params=
+comment4.target=ImageViewer()
+numComments=5

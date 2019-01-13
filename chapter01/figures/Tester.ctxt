@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Tester
+comment0.text=\r\n\ class\ Tester\ -\ geef\ hier\ een\ beschrijving\ van\ deze\ class\r\n\r\n\ @author\ (jouw\ naam)\r\n\ @version\ (versie\ nummer\ of\ datum)\r\n
+comment1.params=
+comment1.target=Tester()
+comment1.text=\r\n\ Constructor\ voor\ objects\ van\ class\ Tester\r\n
+comment2.params=y
+comment2.target=int\ voorbeeldMethod(int)
+comment2.text=\r\n\ Voorbeeld\ van\ een\ method\ -\ schrijf\ hier\ jouw\ comment\r\n\r\n\ @param\ \ y\ \ \ \ deze\ method\ krijgt\ deze\ parameter\ mee\ in\ de\ aanroep\r\n\ @return\ \ \ \ deze\ method\ geeft\ de\ som\ van\ x\ en\ y\ terug\r\n
+numComments=3

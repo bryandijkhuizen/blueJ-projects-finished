@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LoglineTokenizer
+comment0.text=\r\n\ Break\ up\ line\ from\ a\ web\ server\ log\ file\ into\r\n\ its\ separate\ fields.\r\n\ Currently,\ the\ log\ file\ is\ assumed\ to\ contain\ simply\r\n\ integer\ date\ and\ time\ information.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\r\n\ @version\ \ \ \ 2016.02.29\r\n
+comment1.params=
+comment1.target=LoglineTokenizer()
+comment1.text=\r\n\ Construct\ a\ LogLineAnalyzer\r\n
+comment2.params=logline\ dataLine
+comment2.target=void\ tokenize(java.lang.String,\ int[])
+comment2.text=\r\n\ Tokenize\ a\ log\ line.\ Place\ the\ integer\ values\ from\r\n\ it\ into\ an\ array.\ The\ number\ of\ tokens\ on\ the\ line\r\n\ must\ be\ sufficient\ to\ fill\ the\ array.\r\n\r\n\ @param\ logline\ The\ line\ to\ be\ tokenized.\r\n\ @param\ dataLine\ Where\ to\ store\ the\ values.\r\n
+numComments=3

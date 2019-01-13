@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Responder
+comment0.text=\r\n\ The\ responder\ class\ represents\ a\ response\ generator\ object.\r\n\ It\ is\ used\ to\ generate\ an\ automatic\ response,\ based\ on\ specified\ input.\r\n\ Input\ is\ presented\ to\ the\ responder\ as\ a\ set\ of\ words,\ and\ based\ on\ those\r\n\ words\ the\ responder\ will\ generate\ a\ String\ that\ represents\ the\ response.\r\n\r\n\ Internally,\ the\ reponder\ uses\ a\ HashMap\ to\ associate\ words\ with\ response\r\n\ strings\ and\ a\ list\ of\ default\ responses.\ If\ any\ of\ the\ input\ words\ is\ found\r\n\ in\ the\ HashMap,\ the\ corresponding\ response\ is\ returned.\ If\ none\ of\ the\ input\r\n\ words\ is\ recognized,\ one\ of\ the\ default\ responses\ is\ randomly\ chosen.\r\n\ \r\n\ @author\ \ \ \ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ \ \ \ 1.0\ (2016.02.29)\r\n
+comment1.params=
+comment1.target=Responder()
+comment1.text=\r\n\ Construct\ a\ Responder\r\n
+comment2.params=words
+comment2.target=java.lang.String\ generateResponse(java.util.HashSet)
+comment3.params=
+comment3.target=void\ fillResponseMap()
+comment3.text=\r\n\ Enter\ all\ the\ known\ keywords\ and\ their\ associated\ responses\r\n\ into\ our\ response\ map.\r\n
+comment4.params=
+comment4.target=void\ fillDefaultResponses()
+comment4.text=\r\n\ Build\ up\ a\ list\ of\ default\ responses\ from\ which\ we\ can\ pick\ one\r\n\ if\ we\ don't\ know\ what\ else\ to\ say.\r\n
+comment5.params=
+comment5.target=java.lang.String\ pickDefaultResponse()
+comment5.text=\r\n\ Randomly\ select\ and\ return\ one\ of\ the\ default\ responses.\r\n\ @return\ \ \ \ \ A\ random\ default\ response\r\n
+numComments=6

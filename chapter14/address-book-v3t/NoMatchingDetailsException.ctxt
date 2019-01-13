@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=NoMatchingDetailsException
+comment0.text=\r\n\ Capture\ a\ key\ that\ failed\ to\ match\ an\ entry\r\n\ in\ the\ address\ book.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling.\r\n\ @version\ 2016.02.29\r\n
+comment1.params=key
+comment1.target=NoMatchingDetailsException(java.lang.String)
+comment1.text=\r\n\ Store\ the\ details\ in\ error.\r\n\ @param\ key\ The\ key\ with\ no\ match.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getKey()
+comment2.text=\r\n\ @return\ The\ key\ in\ error.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ @return\ A\ diagnostic\ string\ containing\ the\ key\ in\ error.\r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ImageFileManager
+comment0.text=\r\n\ ImageFileManager\ is\ a\ small\ utility\ class\ with\ static\ methods\ to\ load\r\n\ and\ save\ images.\r\n\ \r\n\ The\ files\ on\ disk\ can\ be\ in\ JPG\ or\ PNG\ image\ format.\ For\ files\ written\r\n\ by\ this\ class,\ the\ format\ is\ determined\ by\ the\ constant\ IMAGE_FORMAT.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes.\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=OFImage\ getImage()
+comment1.text=\r\n\ Open\ a\ file\ chooser\ and\ let\ the\ user\ select\ an\ image\ file\ in\ the\ file\r\n\ system.\ Then\ read\ an\ image\ file\ from\ disk\ and\ return\ it\ as\ an\ image.\ This\ method\r\n\ can\ read\ JPG\ and\ PNG\ file\ formats.\ In\ case\ of\ any\ problem\ (e.g\ the\ file\ does\r\n\ not\ exist,\ is\ in\ an\ undecodable\ format,\ or\ any\ other\ read\ error)\ this\ method\r\n\ returns\ null.\r\n\ \r\n\ @return\ \ \ \ \ \ \ The\ image\ object\ or\ null\ is\ it\ was\ not\ a\ valid\ image\ file.\r\n
+comment2.params=imageFile
+comment2.target=OFImage\ loadImage(java.io.File)
+comment2.text=\r\n\ Read\ an\ image\ file\ from\ disk\ and\ return\ it\ as\ a\ BufferedImage.\ This\ method\r\n\ can\ read\ JPG\ and\ PNG\ file\ formats.\ In\ case\ of\ any\ problem\ (e.g\ the\ file\ does\r\n\ not\ exist,\ is\ in\ an\ undecodable\ format,\ or\ any\ other\ read\ error)\ this\ method\r\n\ returns\ null.\r\n\ \r\n\ @param\ imageFile\ \ The\ image\ file\ to\ be\ loaded.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ The\ image\ object\ or\ null\ if\ it\ was\ not\ a\ valid\ image\ file.\r\n
+comment3.params=image\ file
+comment3.target=void\ saveImage(OFImage,\ java.io.File)
+comment3.text=\r\n\ Write\ an\ image\ file\ to\ disk.\ The\ file\ format\ is\ JPG.\ In\ case\ of\ any\ problem\r\n\ the\ method\ just\ silently\ returns.\r\n\ \r\n\ @param\ image\ \ The\ image\ to\ be\ saved.\r\n\ @param\ file\ \ \ The\ file\ to\ save\ to.\r\n
+numComments=4

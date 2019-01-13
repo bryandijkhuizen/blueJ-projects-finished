@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.target=MusicOrganizer
+comment0.text=\r\n\ A\ class\ to\ hold\ details\ of\ audio\ files.\r\n\r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=
+comment1.target=MusicOrganizer()
+comment1.text=\r\n\ Create\ a\ MusicOrganizer\r\n
+comment10.params=
+comment10.target=void\ stopPlaying()
+comment10.text=\r\n\ Stop\ the\ player.\r\n
+comment2.params=filename
+comment2.target=void\ addFile(java.lang.String)
+comment2.text=\r\n\ Add\ a\ file\ to\ the\ collection.\r\n\ @param\ filename\ The\ file\ to\ be\ added.\r\n
+comment3.params=
+comment3.target=int\ getNumberOfFiles()
+comment3.text=\r\n\ Return\ the\ number\ of\ files\ in\ the\ collection.\r\n\ @return\ The\ number\ of\ files\ in\ the\ collection.\r\n
+comment4.params=index
+comment4.target=void\ listFile(int)
+comment4.text=\r\n\ List\ a\ file\ from\ the\ collection.\r\n\ @param\ index\ The\ index\ of\ the\ file\ to\ be\ listed.\r\n
+comment5.params=
+comment5.target=void\ listAllFiles()
+comment5.text=\r\n\ Show\ a\ list\ of\ all\ the\ files\ in\ the\ collection.\r\n
+comment6.params=searchString
+comment6.target=void\ listMatching(java.lang.String)
+comment6.text=\r\n\ List\ the\ names\ of\ files\ matching\ the\ given\ search\ string.\r\n\ @param\ searchString\ The\ string\ to\ match.\r\n
+comment7.params=searchString
+comment7.target=int\ findFirst(java.lang.String)
+comment8.params=index
+comment8.target=void\ removeFile(int)
+comment8.text=\r\n\ \ \ \ \r\n\ \ \ \ public\ int\ findFirst(String\ searchString)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ int\ index\ \=\ 0;\r\n\ \ \ \ \ \ \ \ //\ Record\ that\ we\ will\ be\ searching\ until\ a\ match\ is\ found.\r\n\ \ \ \ \ \ \ \ boolean\ searching\ \=\ true;\r\n\r\n\ \ \ \ \ \ \ \ while(searching\ &&\ index\ <\ files.size())\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ String\ filename\ \=\ files.get(index);\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(filename.contains(searchString))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ A\ match.\ We\ can\ stop\ searching.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ searching\ \=\ false;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ Move\ on.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ index++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ if(searching)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ //\ We\ didn't\ find\ it.\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ -1;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Return\ where\ it\ was\ found.\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ index;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\ \ \ \ \r\n
+comment9.params=index
+comment9.target=void\ startPlaying(int)
+comment9.text=\r\n\ Start\ playing\ a\ file\ in\ the\ collection.\r\n\ Use\ stopPlaying()\ to\ stop\ it\ playing.\r\n\ @param\ index\ The\ index\ of\ the\ file\ to\ be\ played.\r\n
+numComments=11

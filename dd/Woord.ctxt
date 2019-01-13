@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Woord
+comment1.params=tekenrij
+comment1.target=Woord(java.lang.String)
+comment2.params=
+comment2.target=int\ geefAantalTekens()
+comment3.params=
+comment3.target=java.lang.String\ geefWoordAchterstevoren()
+comment4.params=
+comment4.target=java.lang.String\ geefWoord()
+comment5.params=
+comment5.target=int[]\ telKlinkers()
+numComments=6

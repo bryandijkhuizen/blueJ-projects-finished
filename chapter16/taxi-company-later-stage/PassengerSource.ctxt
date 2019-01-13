@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PassengerSource
+comment0.text=\r\n\ Periodically\ generate\ passengers.\r\n\ Keep\ track\ of\ the\ number\ of\ passengers\ for\ whom\r\n\ a\ vehicle\ cannot\ be\ found.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=city\ company
+comment1.target=PassengerSource(City,\ TaxiCompany)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PassengerSource.\r\n\ @param\ city\ The\ city.\ Must\ not\ be\ null.\r\n\ @param\ company\ The\ company\ to\ be\ used.\ Must\ not\ be\ null.\r\n\ @throws\ NullPointerException\ if\ city\ or\ company\ is\ null.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Randomly\ generate\ a\ new\ passenger.\r\n\ Keep\ a\ count\ of\ missed\ pickups.\r\n
+comment3.params=
+comment3.target=int\ getMissedPickups()
+comment3.text=\r\n\ @return\ The\ number\ of\ passengers\ for\ whom\ a\ pickup\r\n\ \ \ \ \ \ \ \ \ could\ not\ be\ found.\r\n
+comment4.params=
+comment4.target=Passenger\ createPassenger()
+comment4.text=\r\n\ Create\ a\ new\ passenger\ with\ distinct\ pickup\ and\r\n\ destination\ locations.\r\n\ @return\ The\ created\ passenger.\r\n
+numComments=5

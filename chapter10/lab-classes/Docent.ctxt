@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Docent
+comment0.text=\r\n\ The\ CopyOfStudent\ class\ represents\ a\ student\ in\ a\ student\ administration\ system.\r\n\ It\ holds\ the\ student\ details\ relevant\ in\ our\ context.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ Barnes\r\n\ @version\ 2016.02.29\r\n
+comment1.params=naam
+comment1.target=Docent(java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ student\ with\ a\ given\ name\ and\ ID\ number.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Return\ the\ full\ name\ of\ this\ student.\r\n
+comment3.params=replacementName
+comment3.target=void\ changeName(java.lang.String)
+comment3.text=\r\n\ Set\ a\ new\ name\ for\ this\ student.\r\n
+comment4.params=
+comment4.target=java.lang.String\ afkorting()
+comment4.text=\r\n\ Return\ the\ student\ ID\ of\ this\ student.\r\n
+comment5.params=
+comment5.target=java.lang.String\ setAfkorting()
+comment5.text=\r\n\ Return\ the\ login\ name\ of\ this\ student.\ The\ login\ name\ is\ a\ combination\r\n\ of\ the\ first\ four\ characters\ of\ the\ student's\ name\ and\ the\ first\ three\r\n\ characters\ of\ the\ student's\ ID\ number.\r\n
+comment6.params=lokaal
+comment6.target=void\ setPersoonlijkLokaal(java.lang.String)
+comment7.params=
+comment7.target=void\ print()
+comment7.text=\r\n\ Print\ the\ student's\ name\ and\ ID\ number\ to\ the\ output\ terminal.\r\n
+numComments=8

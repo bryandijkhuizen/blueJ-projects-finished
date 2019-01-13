@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SimulatorView
+comment0.text=\r\n\ A\ graphical\ view\ of\ the\ simulation\ grid.\r\n\ The\ view\ displays\ a\ colored\ rectangle\ for\ each\ location\ \r\n\ representing\ its\ contents.\ It\ uses\ a\ default\ background\ color.\r\n\ Colors\ for\ each\ type\ of\ species\ can\ be\ defined\ using\ the\r\n\ setColor\ method.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=height\ width
+comment1.target=SimulatorView(int,\ int)
+comment1.text=\r\n\ Create\ a\ view\ of\ the\ given\ width\ and\ height.\r\n\ @param\ height\ The\ simulation's\ height.\r\n\ @param\ width\ \ The\ simulation's\ width.\r\n
+comment2.params=animalClass\ color
+comment2.target=void\ setColor(java.lang.Class,\ java.awt.Color)
+comment2.text=\r\n\ Define\ a\ color\ to\ be\ used\ for\ a\ given\ class\ of\ animal.\r\n\ @param\ animalClass\ The\ animal's\ Class\ object.\r\n\ @param\ color\ The\ color\ to\ be\ used\ for\ the\ given\ class.\r\n
+comment3.params=animalClass
+comment3.target=java.awt.Color\ getColor(java.lang.Class)
+comment3.text=\r\n\ @return\ The\ color\ to\ be\ used\ for\ a\ given\ class\ of\ animal.\r\n
+comment4.params=step\ field
+comment4.target=void\ showStatus(int,\ Field)
+comment4.text=\r\n\ Show\ the\ current\ status\ of\ the\ field.\r\n\ @param\ step\ Which\ iteration\ step\ it\ is.\r\n\ @param\ field\ The\ field\ whose\ status\ is\ to\ be\ displayed.\r\n
+comment5.params=field
+comment5.target=boolean\ isViable(Field)
+comment5.text=\r\n\ Determine\ whether\ the\ simulation\ should\ continue\ to\ run.\r\n\ @return\ true\ If\ there\ is\ more\ than\ one\ species\ alive.\r\n
+numComments=6

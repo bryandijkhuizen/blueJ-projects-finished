@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\r\n\ A\ class\ representing\ shared\ characteristics\ of\ animals.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\ (2)\r\n
+comment1.params=field\ location
+comment1.target=Animal(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ animal\ at\ location\ in\ field.\r\n\ \r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newAnimals
+comment2.target=void\ act(java.util.List)
+comment2.text=\r\n\ Make\ this\ animal\ act\ -\ that\ is\:\ make\ it\ do\r\n\ whatever\ it\ wants/needs\ to\ do.\r\n\ @param\ newAnimals\ A\ list\ to\ receive\ newly\ born\ animals.\r\n
+comment3.params=
+comment3.target=boolean\ isAlive()
+comment3.text=\r\n\ Check\ whether\ the\ animal\ is\ alive\ or\ not.\r\n\ @return\ true\ if\ the\ animal\ is\ still\ alive.\r\n
+comment4.params=
+comment4.target=void\ setDead()
+comment4.text=\r\n\ Indicate\ that\ the\ animal\ is\ no\ longer\ alive.\r\n\ It\ is\ removed\ from\ the\ field.\r\n
+comment5.params=
+comment5.target=Location\ getLocation()
+comment5.text=\r\n\ Return\ the\ animal's\ location.\r\n\ @return\ The\ animal's\ location.\r\n
+comment6.params=newLocation
+comment6.target=void\ setLocation(Location)
+comment6.text=\r\n\ Place\ the\ animal\ at\ the\ new\ location\ in\ the\ given\ field.\r\n\ @param\ newLocation\ The\ animal's\ new\ location.\r\n
+comment7.params=
+comment7.target=Field\ getField()
+comment7.text=\r\n\ Return\ the\ animal's\ field.\r\n\ @return\ The\ animal's\ field.\r\n
+numComments=8

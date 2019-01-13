@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=InputReader
+comment0.text=\r\n\ InputReader\ reads\ typed\ text\ input\ from\ the\ standard\ text\ terminal.\ \r\n\ The\ text\ typed\ by\ a\ user\ is\ then\ chopped\ into\ words,\ and\ a\ set\ of\ words\ \r\n\ is\ provided.\r\n\ \r\n\ @author\ \ \ \ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ \ \ \ 1.0\ (2016.02.29)\r\n
+comment1.params=
+comment1.target=InputReader()
+comment1.text=\r\n\ Create\ a\ new\ InputReader\ that\ reads\ text\ from\ the\ text\ terminal.\r\n
+comment2.params=
+comment2.target=java.util.HashSet\ getInput()
+comment2.text=\r\n\ Read\ a\ line\ of\ text\ from\ standard\ input\ (the\ text\ terminal),\r\n\ and\ return\ it\ as\ a\ set\ of\ words.\r\n\r\n\ @return\ \ A\ set\ of\ Strings,\ where\ each\ String\ is\ one\ of\ the\ \r\n\ \ \ \ \ \ \ \ \ \ words\ typed\ by\ the\ user\r\n
+numComments=3

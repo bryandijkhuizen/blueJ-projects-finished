@@ -1,0 +1,15 @@
+Verschillen
+
+*	Alle gemeenschappelijke methodes staan in de superklasse en worden aangeroepen met super.
+
+*	De klasse Animal is abstract omdat er een abstrace methode in staat (act) alle animal klassen gebruiken
+	deze methode alleen allen op een andere manier.
+
+*	All methodes behalve act (deze is abstract) zijn protected en alleen te bereiken door de subklassen.
+
+*	In de simulator klasse moest bij het simuleren nu gewerkt worden met act i.p.v individuele opdrachten en er moest worden 
+	verwezen naar de ArrayList newAnimals en niet meer naar de dieren afzonderlijk.
+
+*	In Rabbit en Fox moesten alle methodes die naar de superklasse zijn verplaatst aangeroepen worden met een super.
+
+*	In de klassen van de dieren zijn de variabelen location en field verwijderd

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ImagePanel
+comment0.text=\r\n\ An\ ImagePanel\ is\ a\ Swing\ component\ that\ can\ display\ an\ OFImage.\r\n\ It\ is\ constructed\ as\ a\ subclass\ of\ JComponent\ with\ the\ added\ functionality\r\n\ of\ setting\ an\ OFImage\ that\ will\ be\ displayed\ on\ the\ surface\ of\ this\r\n\ component.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes.\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=ImagePanel()
+comment1.text=\r\n\ Create\ a\ new,\ empty\ ImagePanel.\r\n
+comment2.params=image
+comment2.target=void\ setImage(OFImage)
+comment2.text=\r\n\ Set\ the\ image\ that\ this\ panel\ should\ show.\r\n\ \r\n\ @param\ image\ \ The\ image\ to\ be\ displayed.\r\n
+comment3.params=
+comment3.target=void\ clearImage()
+comment3.text=\r\n\ Clear\ the\ image\ on\ this\ panel.\r\n
+comment4.params=
+comment4.target=java.awt.Dimension\ getPreferredSize()
+comment4.text=\r\n\ Tell\ the\ layout\ manager\ how\ big\ we\ would\ like\ to\ be.\r\n\ (This\ method\ gets\ called\ by\ layout\ managers\ for\ placing\r\n\ the\ components.)\r\n\ \r\n\ @return\ The\ preferred\ dimension\ for\ this\ component.\r\n
+comment5.params=g
+comment5.target=void\ paintComponent(java.awt.Graphics)
+comment5.text=\r\n\ This\ component\ needs\ to\ be\ redisplayed.\ Copy\ the\ internal\ image\ \r\n\ to\ screen.\ (This\ method\ gets\ called\ by\ the\ Swing\ screen\ painter\ \r\n\ every\ time\ it\ want\ this\ component\ displayed.)\r\n\ \r\n\ @param\ g\ The\ graphics\ context\ that\ can\ be\ used\ to\ draw\ on\ this\ component.\r\n
+numComments=6

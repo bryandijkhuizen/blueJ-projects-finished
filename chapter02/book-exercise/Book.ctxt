@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ A\ class\ that\ maintains\ information\ on\ a\ book.\r\n\ This\ might\ form\ part\ of\ a\ larger\ application\ such\r\n\ as\ a\ library\ system,\ for\ instance.\r\n\r\n\ @author\ (Bryan\ Dijkhuizen.)\r\n\ @version\ (20.11.2018)\r\n
+comment1.params=bookAuthor\ bookTitle\ pagesCnt\ bookCourseText
+comment1.target=Book(java.lang.String,\ java.lang.String,\ int,\ boolean)
+comment1.text=\r\n\ Set\ the\ author\ and\ title\ fields\ when\ this\ object\r\n\ is\ constructed.\r\n
+comment10.params=ref
+comment10.target=void\ setRefNumber(java.lang.String)
+comment2.params=
+comment2.target=boolean\ isCourseText()
+comment3.params=
+comment3.target=java.lang.String\ getAuthor()
+comment4.params=
+comment4.target=java.lang.String\ getTitle()
+comment5.params=
+comment5.target=int\ getPages()
+comment6.params=
+comment6.target=void\ borrow()
+comment7.params=
+comment7.target=int\ getBorrowed()
+comment8.params=
+comment8.target=void\ printDetails()
+comment9.params=
+comment9.target=java.lang.String\ getRefNumber()
+numComments=11

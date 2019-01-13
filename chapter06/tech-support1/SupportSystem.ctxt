@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SupportSystem
+comment0.text=\r\n\ This\ class\ implements\ a\ technical\ support\ system.\ It\ is\ the\ top\ level\ class\ \r\n\ in\ this\ project.\ The\ support\ system\ communicates\ via\ text\ input/output\ \r\n\ in\ the\ text\ terminal.\r\n\ \r\n\ This\ class\ uses\ an\ object\ of\ class\ InputReader\ to\ read\ input\ from\ the\ user,\r\n\ and\ an\ object\ of\ class\ Responder\ to\ generate\ responses.\ It\ contains\ a\ loop\r\n\ that\ repeatedly\ reads\ input\ and\ generates\ output\ until\ the\ users\ wants\ to\ \r\n\ leave.\r\n\ \r\n\ @author\ \ \ \ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ \ \ \ 0.1\ (2016.02.29)\r\n
+comment1.params=
+comment1.target=SupportSystem()
+comment1.text=\r\n\ Creates\ a\ technical\ support\ system.\r\n
+comment2.params=
+comment2.target=void\ start()
+comment2.text=\r\n\ Start\ the\ technical\ support\ system.\ This\ will\ print\ a\ welcome\r\n\ message\ and\ enter\ into\ a\ dialog\ with\ the\ user,\ until\ the\ user\r\n\ ends\ the\ dialog.\r\n
+comment3.params=
+comment3.target=void\ printWelcome()
+comment3.text=\r\n\ Print\ a\ welcome\ message\ to\ the\ screen.\r\n
+comment4.params=
+comment4.target=void\ printGoodbye()
+comment4.text=\r\n\ Print\ a\ good-bye\ message\ to\ the\ screen.\r\n
+numComments=5

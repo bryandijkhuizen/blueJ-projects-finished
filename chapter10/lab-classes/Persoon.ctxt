@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Persoon
+comment0.text=\r\n\ class\ Persoon\ -\ geef\ hier\ een\ beschrijving\ van\ deze\ class\r\n\r\n\ @author\ (jouw\ naam)\r\n\ @version\ (versie\ nummer\ of\ datum)\r\n
+comment1.params=naam
+comment1.target=Persoon(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getVollNaam()
+comment3.params=naam
+comment3.target=void\ setVollNaam(java.lang.String)
+numComments=4

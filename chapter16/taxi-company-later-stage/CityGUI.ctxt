@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CityGUI
+comment0.text=\r\n\ Provide\ a\ view\ of\ the\ vehicles\ and\ passengers\ in\ the\ city.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=city
+comment1.target=CityGUI(City)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CityGUI\r\n\ @param\ city\ The\ city\ whose\ state\ is\ to\ be\ displayed.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Display\ the\ current\ state\ of\ the\ city.\r\n
+numComments=3

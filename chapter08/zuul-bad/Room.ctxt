@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\r\n\ Class\ Room\ -\ a\ room\ in\ an\ adventure\ game.\r\n\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ A\ "Room"\ represents\ one\ location\ in\ the\ scenery\ of\ the\ game.\ \ It\ is\ \r\n\ connected\ to\ other\ rooms\ via\ exits.\ \ The\ exits\ are\ labelled\ north,\ \r\n\ east,\ south,\ west.\ \ For\ each\ direction,\ the\ room\ stores\ a\ reference\r\n\ to\ the\ neighboring\ room,\ or\ null\ if\ there\ is\ no\ exit\ in\ that\ direction.\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 2016.02.29\r\n
+comment1.params=description
+comment1.target=Room(java.lang.String)
+comment1.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n\ @param\ description\ The\ room's\ description.\r\n
+comment2.params=north\ east\ south\ west
+comment2.target=void\ setExits(Room,\ Room,\ Room,\ Room)
+comment2.text=\r\n\ Define\ the\ exits\ of\ this\ room.\ \ Every\ direction\ either\ leads\r\n\ to\ another\ room\ or\ is\ null\ (no\ exit\ there).\r\n\ @param\ north\ The\ north\ exit.\r\n\ @param\ east\ The\ east\ east.\r\n\ @param\ south\ The\ south\ exit.\r\n\ @param\ west\ The\ west\ exit.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ @return\ The\ description\ of\ the\ room.\r\n
+numComments=4

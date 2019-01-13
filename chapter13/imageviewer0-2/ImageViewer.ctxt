@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ImageViewer
+comment0.text=\r\n\ ImageViewer\ is\ the\ main\ class\ of\ the\ image\ viewer\ application.\ It\ builds\ \r\n\ and\ displays\ the\ application\ GUI.\r\n\ \r\n\ To\ start\ the\ application,\ create\ an\ object\ of\ this\ class.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes.\r\n\ @version\ 0.2\r\n
+comment1.params=
+comment1.target=ImageViewer()
+comment1.text=d\r\n\ Create\ an\ ImageViewer\ show\ it\ on\ screen.\r\n
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\r\n\ Receive\ notification\ of\ an\ action.\r\n\ @param\ event\ Details\ of\ the\ action.\r\n
+comment3.params=
+comment3.target=void\ makeFrame()
+comment3.text=\r\n\ Create\ the\ Swing\ frame\ and\ its\ content.\r\n
+comment4.params=frame
+comment4.target=void\ makeMenuBar(javax.swing.JFrame)
+comment4.text=\r\n\ Create\ the\ main\ frame's\ menu\ bar.\r\n\ @param\ frame\ \ \ The\ frame\ that\ the\ menu\ bar\ should\ be\ added\ to.\r\n
+comment5.params=
+comment5.target=void\ openFile()
+comment6.params=
+comment6.target=void\ saveFile()
+comment7.params=
+comment7.target=void\ help()
+comment8.params=
+comment8.target=void\ quit()
+numComments=9

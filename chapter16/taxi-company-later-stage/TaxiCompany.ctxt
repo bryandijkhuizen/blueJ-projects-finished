@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TaxiCompany
+comment0.text=\r\n\ Model\ the\ operation\ of\ a\ taxi\ company,\ operating\ different\r\n\ types\ of\ vehicle.\ This\ version\ operates\ a\ only\ taxis.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=city
+comment1.target=TaxiCompany(City)
+comment1.text=\r\n\ @param\ city\ The\ city.\r\n
+comment2.params=passenger
+comment2.target=boolean\ requestPickup(Passenger)
+comment2.text=\r\n\ Request\ a\ pickup\ for\ the\ given\ passenger.\r\n\ @param\ passenger\ The\ passenger\ requesting\ a\ pickup.\r\n\ @return\ Whether\ a\ free\ vehicle\ is\ available.\r\n
+comment3.params=vehicle
+comment3.target=void\ arrivedAtPickup(Vehicle)
+comment3.text=\r\n\ A\ vehicle\ has\ arrived\ at\ a\ pickup\ point.\r\n\ @param\ vehicle\ The\ vehicle\ at\ the\ pickup\ point.\r\n\ @throws\ MissingPassengerException\ If\ there\ is\ no\ passenger\ waiting.\r\n
+comment4.params=vehicle\ passenger
+comment4.target=void\ arrivedAtDestination(Vehicle,\ Passenger)
+comment4.text=\r\n\ A\ vehicle\ has\ arrived\ at\ a\ passenger's\ destination.\r\n\ @param\ vehicle\ The\ vehicle\ at\ the\ destination.\r\n\ @param\ passenger\ The\ passenger\ being\ dropped\ off.\r\n
+comment5.params=
+comment5.target=java.util.List\ getVehicles()
+comment5.text=\r\n\ @return\ The\ list\ of\ vehicles.\r\n
+comment6.params=
+comment6.target=Vehicle\ scheduleVehicle()
+comment6.text=\r\n\ Find\ a\ free\ vehicle,\ if\ any.\r\n\ @return\ A\ free\ vehicle,\ or\ null\ if\ there\ is\ none.\r\n
+comment7.params=
+comment7.target=void\ setupVehicles()
+comment7.text=\r\n\ Set\ up\ this\ company's\ vehicles.\ The\ optimum\ number\ of\r\n\ vehicles\ should\ be\ determined\ by\ analysis\ of\ the\r\n\ data\ gathered\ from\ the\ simulation.\r\n\r\n\ Vehicles\ start\ at\ random\ locations.\r\n
+numComments=8

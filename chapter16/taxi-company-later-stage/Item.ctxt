@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ An\ item\ in\ the\ city.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=
+comment1.target=Location\ getLocation()
+numComments=2
